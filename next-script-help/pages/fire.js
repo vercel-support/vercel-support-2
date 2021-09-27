@@ -7,7 +7,7 @@ const fire = () => {
     <div>
       <Head>
         <script
-          dangerouslySetInnerHTML={{ __html: "jquery.('#cat').html('cats')" }}
+          dangerouslySetInnerHTML={{ __html: "jQuery.('#cat').html('cats')" }}
         ></script>
       </Head>
 
